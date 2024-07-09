@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.background-image {
+    background-image: url("https://th.bing.com/th/id/OIP.18LMJIQ3fFdrSwQTw42XDgHaE8?rs=1&pid=ImgDetMain");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.inner {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.hot, .ice {
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 300px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+#image_id {
+    height: 33vh;
+}
+
+.read p {
+    word-spacing: 3px;
+    line-height: 30px;
+    color: white;
+    margin: 0;
+}
+
+.read h2 {
+    text-align: center;
+    word-spacing: 9px;
+}
+
+#sidebar {
+    width: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.brew {
+    height: 200px;
+    width: 100%;
+    background-image: url("https://www.lorensworld.com/wp-content/uploads/2015/03/shutterstock_116212006.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #3C280D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#info {
+    text-align: center;
+    word-spacing: 1px;
+    letter-spacing: 10px;
+    line-height: 40px;
+    font-weight: 900;
+    color: #0E0504;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+/* Hover effect on social media icons */
+.socialIcons a:hover {
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
